@@ -1,0 +1,57 @@
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+}
+header {
+    background: #333;
+    color: white;
+    padding: 1rem 2rem;
+}
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.hero {
+    background: url('../images/uganda-hero.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 4rem 1rem;
+}
+.hero .cta-button {
+    background: #ff9800;
+    color: white;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.features {
+    background: #f4f4f4;
+    padding: 2rem;
+}
+.features h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.features .cards {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.card {
+    background: white;
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+    
